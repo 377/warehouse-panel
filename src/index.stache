@@ -5,6 +5,7 @@
     {{asset "html5shiv"}}
   </head>
   <body>
+    <can-import from="bootstrap/less/bootstrap.less!" />
     <can-import from="warehouse-panel/styles.less!" />
     <can-import from="warehouse-panel/app" export-as="viewModel" />
 
