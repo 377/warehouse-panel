@@ -6,14 +6,18 @@ import 'can/route/pushstate/';
 const AppViewModel = AppMap.extend({
   define: {
     message: {
-      value: 'Hello Jensilainen!',
+      value: 'Warehouse Panel 377',
       serialize: false
     },
     title: {
-      value: 'warehouse-panel',
+      value: 'Warehouse Panel 377',
       serialize: false
     }
   }
 });
+
+route(':page', { page: 'home' });
+route(':page/:slug', { slug: null });
+route(':page/:slug/:action', { slug: null, action: null });
 
 export default AppViewModel;

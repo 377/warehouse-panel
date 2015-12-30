@@ -7,3 +7,5 @@ import 'warehouse-panel/user/login/login_test';
 import 'warehouse-panel/order/list/list_test';
 
 import 'warehouse-panel/order/item/item_test';
+
+import 'warehouse-panel/core/modal/modal_test';
